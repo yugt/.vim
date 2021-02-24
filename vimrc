@@ -3,6 +3,7 @@ filetype off                  " required
 
 " set the runtime path to include Vundle and initialize
 set rtp+=~/.vim/bundle/Vundle.vim
+set rtp+=~/.vim/bundle/codota/tabnine-vim
 call vundle#begin()
 " alternatively, pass a path where Vundle should install plugins
 "call vundle#begin('~/some/path/here')
@@ -28,7 +29,7 @@ Plugin 'morhetz/gruvbox'
 Plugin 'vim-airline/vim-airline'
 Plugin 'vim-airline/vim-airline-themes'
 
-Plugin 'ycm-core/YouCompleteMe'
+Plugin 'codota/tabnine-vim'
 Plugin 'JuliaEditorSupport/julia-vim'
 
 call vundle#end() 
@@ -52,6 +53,7 @@ syntax on
 set background=dark
 set cursorcolumn
 set cursorline
+set fileencodings=utf-8,cp936,gb18030
 set incsearch
 set mouse=a
 set number
