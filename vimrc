@@ -60,6 +60,8 @@ set number
 set showcmd
 set showmatch
 set virtualedit=block
+set tabstop=4
+set shiftwidth=4
 hi Normal guibg=NONE ctermbg=NONE
 
 setlocal wrap linebreak nolist
