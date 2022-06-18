@@ -48,6 +48,7 @@ call vundle#end()
 let g:airline#extensions#tabline#enabled = 1
 let g:airline#extensions#tabline#formatter = 'unique_tail'
 let g:gruvbox_contrast_dark = 'hard'
+let g:loaded_youcompleteme = 1
 colorscheme gruvbox
 syntax on
 set background=dark
