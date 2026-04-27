@@ -1,12 +1,12 @@
 {
   "schema": "cofabric.task_status.v1",
   "task_number": 1,
-  "title": "Configure Vim with line numbers",
+  "title": "Add line number display to vimrc configuration",
   "status": "pending",
   "priority": "high",
   "description": "",
   "completion_summary": null,
   "pr_url": null,
   "pr_doc": null,
-  "updated_at": "2026-04-27T06:59:36.439Z"
+  "updated_at": "2026-04-27T07:00:23.991Z"
 }
